@@ -1,0 +1,184 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', monospace;
+}
+body {
+  position: relative;
+}
+div.section_1 {
+  
+  width: 100%;
+  
+}
+
+div.container {
+  max-width: 1880px;
+  padding: 0 15px;
+  padding-top: 1%;
+}
+
+
+  
+
+div.box {
+  display: flex;
+  width: 100%;
+  
+  
+}
+div.content {
+  --shirina: 17%;
+  margin-left: 17.2%;
+  width: 83%;
+  
+  
+}
+
+a {
+  color: black;
+}
+img {
+  display: block;
+}
+.roditel1 {
+  display: flex;
+  padding: 40px 50px 18px 40px;
+}
+.section_1  img:not(:first-of-type) {
+  margin-left: 1%;
+}
+div.roditel2 {
+display: flex;
+padding: 40px 50px 18px 40px; ;
+}
+
+div.equipment {
+width: 35%;
+padding-left: 10%;
+
+}
+div.info {
+  width: 65%;
+}
+li.obor:before {
+content: "●";
+font-size: 10px;
+position: absolute;
+left: 0;
+top: 4px;
+
+}
+div.equipment li.obor {
+list-style: none;
+display: block;
+position: relative;
+padding-left: 16px;
+
+}
+p.zag1, p.zag2 {
+margin-bottom: 14px;
+display: block;
+}
+h3.name, h3.what {
+margin-top: 14px;
+margin-bottom: 14px;
+display: block;
+}
+div.roditel3 {
+  padding: 40px 50px 18px 40px;
+  
+
+
+padding-left: 18px;
+padding-right: 18px;
+}
+div.section_3, div.section_2, div.section_4,div.section_5 {
+  width: 100%;
+  
+
+}
+div.contain1, div.contain2 img {
+display: block;
+}
+div.roditel4 {
+  padding: 40px 50px 18px 40px;
+}
+div.con1, div.con2 {
+display: flex;
+
+
+
+}
+div.roditel4 img#yes {
+margin-left: 1%;
+}
+div.roditel4 img.da {
+  margin-bottom: 1%;
+  }
+
+div.con1 {
+margin-bottom: 15px;
+}
+
+body {
+font-family: 'Ubuntu', sans-serif;
+}
+div.roditel5 {
+  padding: 40px 50px 18px 40px;
+  
+  
+  
+}
+
+
+div.sec5content {
+  margin: auto;
+  width: 45%;
+  
+}
+
+div#photo {
+  padding-top: 50px;
+}
+div#subphoto h2 {
+  width: 420px;
+  margin: auto;
+}
+div.section_1 img {
+  width: 22.5%;
+  height: 100%;
+}
+div.roditel4 {
+  display: flex;
+  flex-wrap: wrap;
+}
+div.roditel4 img {
+  width: 22.5%;
+}
+
+div.a input {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+img {
+  width: 75%;
+  
+}
+div.section_6 {
+  display: none;
+}
+div.roditel6 {
+  padding: 40px 50px 18px 40px;
+}
+div.section_6 div.aside_footer  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+hr {
+  display: none;
+}

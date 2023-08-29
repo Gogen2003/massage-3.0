@@ -1,0 +1,60 @@
+div.aside {
+    --shirina: 17%;
+    max-height: 95%;
+    width: var(--shirina);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: fixed;
+    height: 100%;
+    font-size: 14px;   
+    
+}
+.logo {
+   width: 100%;
+   
+}
+div.menubar li:first-of-type {
+    text-decoration: underline;
+}
+div.icons_contact ul {
+    display: flex;
+}
+ul.conc li {
+    list-style: none;
+    display: block;
+}
+  ul.conc li:not(:first-of-type) {
+    margin-left: 10px;
+}
+  ul.mnb li:not(:last-of-type)  {
+    margin-bottom: 30px;
+}
+  div.aside ul.mnb li a{
+    display: block;
+    text-decoration: none;
+}
+  div.menubar li {
+    display: block;
+}
+  div.logo {
+    margin-bottom: 60px;
+}
+  div.icons_contact {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+  div.prava {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+div.sub_aside {
+  height: 75%;
+}
+div.aside div.aside_footer {
+  margin-top: 50%;
+}
+#frst_li {
+  text-decoration: none;
+  
+}
+

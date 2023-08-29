@@ -1,0 +1,100 @@
+div.Modal_window_content {
+    width: 92%;
+    height: 100%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-right: 4%;
+    padding-left: 4%;
+    
+    
+}
+
+div.Modal_window {
+    max-width: 85%;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: white;
+   
+    
+    
+    border-radius: 10px;
+    
+}
+
+div.Modal_window_content_main {
+    display: flex;
+    
+    
+}
+
+div.photo_block {
+    width: 30%;
+}
+div.textfield_block {
+    width: 70%;
+    
+}
+div.a {
+    width: 100%;
+}
+div.main {
+    
+    width: 100%;
+}
+div#domik {
+    padding: 0 5%;
+    padding-top: 7%;
+    
+}
+div.OTZIV {
+    background: BLACK;
+}
+div#domik p {
+    margin-bottom: 15px;
+}
+
+div#domik div {
+    padding: 10px 10px 15px 15px;
+    border: 1px solid black;
+    margin-bottom: 2%;
+    border-radius: 1%;
+}
+div#domik h3 {
+    font-weight: bold;
+}
+/* стили для input */
+*::before, *::after {
+    box-sizing: border-box;
+  }
+  input[type="text"] {
+    font-family: inherit; /* 1 */
+    font-size: inherit; /* 1 */
+    line-height: inherit; /* 1 */
+    margin: 0; /* 2 */
+  }
+  .text-field {
+    margin-bottom: 1rem;
+  }
+  /* стили для label */
+  .text-field__label {
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+  /* стили для input */
+  .text-field__input {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+ 
